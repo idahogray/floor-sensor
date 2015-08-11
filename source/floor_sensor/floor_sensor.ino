@@ -7,19 +7,6 @@
 
 const int DHT_PIN = 4;
 
-const int BAY_1_PING_PIN = 12;
-const int BAY_1_LED_PIN = 13;
-const int BAY_1_DOOR_CONTROL_PIN = 11;
-
-const int BAY_2_PING_PIN = 9;
-const int BAY_2_LED_PIN = 10;
-const int BAY_2_DOOR_CONTROL_PIN = 8;
-
-const int MAX_DISTANCE = 200;
-
-NewPing bay1(BAY_1_PING_PIN, BAY_1_PING_PIN, MAX_DISTANCE);
-NewPing bay2(BAY_2_PING_PIN, BAY_2_PING_PIN, MAX_DISTANCE);
-
 DHT dht(DHT_PIN, DHT_TYPE);
 
 enum
