@@ -64,4 +64,5 @@ void loop()
   Serial.print("Temperature (*C * 100): ");
   Serial.println(holding_registers[TEMPERATURE_C]);
   Serial.print("Temperature (*F * 100): ");
+  Serial.println(holding_registers[TEMPERATURE_F]);
 }
