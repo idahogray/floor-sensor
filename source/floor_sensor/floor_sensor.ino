@@ -5,7 +5,7 @@
 
 #define DHT_TYPE DHT22
 
-const int DHT_PIN = 2;
+const int DHT_PIN = 4;
 
 const int BAY_1_PING_PIN = 12;
 const int BAY_1_LED_PIN = 13;
